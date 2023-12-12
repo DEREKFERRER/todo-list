@@ -1,0 +1,54 @@
+h1{
+    text-align: center;
+}
+.wrapper{
+    display: grid;
+    justify-content: center; 
+    row-gap: 15px;
+    justify-items: center;
+}
+.inputbar {
+    background-color: gray;
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#Nameoftask {
+    border-radius: 10px;
+    padding: 10px;
+}
+#Entertaskname{
+    padding: 10px;
+}
+.task{
+    background-color: gray;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+h2{
+    padding-left: 20px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+li {
+ 
+}
+.done {
+    text-decoration: line-through;
+  }
+
+.listTask{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
