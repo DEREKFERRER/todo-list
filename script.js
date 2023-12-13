@@ -22,14 +22,6 @@ function createListElement() {
     div.setAttribute('id', 'buttons');
     div.appendChild(div2);
 
-    /* let doneButton = document.createElement("button");
-    doneButton.innerHTML = "done"; */
-   /*  doneButton.setAttribute('id', 'doneButton'); */ // setAttribute means setting a "done" to id
-   /* function toggleButton(){
-       
-    }
-    doneButton.addEventListener("click", toggleButton); */
-
     let delButton = document.createElement("button");
     delButton.innerHTML = "Delete";
     
